@@ -159,7 +159,7 @@ By the end of MVP, EduTrace will allow:
 - Any visitor to explore courses, roadmaps, topics
 - Registered students to track progress, take quizzes, complete roadmaps
 - Certificates/badges awarded for roadmap completion and stored in dashboard
-
----
-
-**Note:** This version organizes content for clarity, removes duplication, and focuses on an MVP scope—delivering core value with minimal features, but enough for a functional, testable product.
+- Users can share their progress and certificates on social media
+- Users can invite friends to join EduTrace and track their progress together
+- Users can collaborate on roadmaps and share progress with friends
+- Users can join groups and participate in discussions
