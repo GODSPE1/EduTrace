@@ -39,6 +39,8 @@ try {
   console.log('✅ All Zod compatibility tests passed!');
   
   // Safe version checking with fallbacks
+  // Uses require.resolve to check if package exists before requiring
+  // Falls back to "not installed or not found" if package is missing
   const getPackageVersion = (packageName) => {
     try {
       const packagePath = require.resolve(`${packageName}/package.json`);
